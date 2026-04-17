@@ -1,7 +1,7 @@
-Package: fdClassify
+Package: fdClassify_nonc
 Type: Package
 Title: Library of Flash Drought classificaition methods
-Version: 0.4.1
+Version: 2.0
 Author: Pedro Alencar
 Maintainer: Pedro Alencar <pedro.alencar@campus.tu-berlin.de>
 Description: This package brings functions to classify FD based on several definitions from the literature:
@@ -15,7 +15,7 @@ Description: This package brings functions to classify FD based on several defin
 License: MIT License Copyright (c) 2021 Pedro Alencar
 Encoding: UTF-8
 LazyData: true
-Imports: tidyr,dplyr,readr,tibbletime,lubridate,stringr,runner,magrittr, ncdf4, ncdf4.helpers,ggplot2, grDevices, gridExtra, vctrs, caret
+Imports: tidyr,dplyr,readr,tibbletime,lubridate,stringr,runner,magrittr, ggplot2, grDevices, gridExtra, vctrs, caret
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
