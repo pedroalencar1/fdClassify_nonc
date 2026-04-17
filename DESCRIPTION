@@ -1,0 +1,21 @@
+Package: fdClassify
+Type: Package
+Title: Library of Flash Drought classificaition methods
+Version: 0.4.1
+Author: Pedro Alencar
+Maintainer: Pedro Alencar <pedro.alencar@campus.tu-berlin.de>
+Description: This package brings functions to classify FD based on several definitions from the literature:
+    - Ford and Labosier (2017)
+    - Pendergrass et al. (2020)
+    - Noguera et al. (2020)    
+    - Noguera et al. (2020)
+    - Christian et al. (2020)
+    - Osman et al. (2021)
+        * Please refer to the README file for further bibliography of the package
+License: MIT License Copyright (c) 2021 Pedro Alencar
+Encoding: UTF-8
+LazyData: true
+Imports: tidyr,dplyr,readr,tibbletime,lubridate,stringr,runner,magrittr, ncdf4, ncdf4.helpers,ggplot2, grDevices, gridExtra, vctrs, caret
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
